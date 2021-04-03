@@ -89,10 +89,10 @@ function area(r:Rectangulo){
 }
 
 const areaReact = area(rect);
-console.log(areaReact);
+// console.log(areaReact);
 
  rect.toString = function(){
      return this.color ? `Un rectangulo ${this.color}` : `Un rectangulo`;
 }
 
-console.log(rect.toString())
+// console.log(rect.toString());
